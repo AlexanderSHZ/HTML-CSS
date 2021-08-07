@@ -1,24 +1,38 @@
 
-/*Stylesheet options for task 1, 4, 6 */
+/*Stylesheet options for task 1, 4, 6, 7, 8, 9, 10, 11 */
 p {
 	color: red;
 	text-align: justify; /*4*/
-	font-style: italic; /*6*/
+	text-indent: 30px; /*11*/
+	/*font-style: italic; /"6"/
+	font-size: 15px; /"7"/
+	font-family: Arial; /"8"/
+	line-height: 30px; /"9"/
+	*/
+	font: italic bold 16px/30px Arial; /*10*/
 }
+	p:first-child {
+		font-style: normal; /*6*/
+	}
+
 
 h1 {
 	color: green; /*1*/
 	text-align: center; /*4*/
+	font: normal 20px verdana; /*10*/
 }
 
 h2 {
 	color: blue; /*1*/
 	text-align: right; /*4*/
-	font-style:italic; /*6*/
+	font-style: italic; /*6*/
+	font-size: 20px; /*7*/
+	font-family: 'Times New Roman'; /*8*/
 }
 
 h3 {
 	color: orange; /*1*/
+	font-family: Georgia; /*8*/
 }
 
 

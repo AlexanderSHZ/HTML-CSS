@@ -1,4 +1,4 @@
-/*Stylesheet options for task 3, 4, 5 */
+/*Stylesheet options for task 3, 4, 5, 12 */
 
 h1 {
 	font-weight: normal; /*5*/
@@ -13,12 +13,14 @@ h2 {
 }
 
 table {
+	vertical-align: top ; /*12*/
 	width: 400px; /*3*/
 	height: 200px /*3*/
 }
 
 th {
 	text-align: left; /*4*/
+	vertical-align: middle; /*12*/
 }
 
 td {
